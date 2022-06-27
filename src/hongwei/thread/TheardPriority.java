@@ -1,4 +1,4 @@
-package com.hongwei.thread;
+package hongwei.thread;
 
 public class TheardPriority {
     public static void main(String[] args) {

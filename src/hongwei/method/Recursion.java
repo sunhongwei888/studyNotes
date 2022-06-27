@@ -1,4 +1,4 @@
-package com.hongwei.method;
+package hongwei.method;
 
 public class Recursion {
     public static void main(String[] args) {

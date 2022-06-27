@@ -1,4 +1,4 @@
-package com.hongwei.thread;
+package hongwei.thread;
 
 import org.apache.commons.io.FileUtils;
 

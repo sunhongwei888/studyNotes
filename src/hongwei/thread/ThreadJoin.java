@@ -1,4 +1,4 @@
-package com.hongwei.thread;
+package hongwei.thread;
 
 public class ThreadJoin implements Runnable{
     @Override

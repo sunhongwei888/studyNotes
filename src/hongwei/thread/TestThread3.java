@@ -1,6 +1,6 @@
-package com.hongwei.thread;
+package hongwei.thread;
 
-public class TestThread extends Thread{
+public class TestThread3 implements Runnable{
     @Override
     public void run() {
         for (int i = 0; i < 20; i++) {
@@ -9,8 +9,8 @@ public class TestThread extends Thread{
     }
 
     public static void main(String[] args) {
-        TestThread testThread = new TestThread();
-        testThread.start();
+        TestThread3 testThread = new TestThread3();
+        new Thread(testThread).start();
 
         for (int i = 0; i < 2000; i++) {
             System.out.println("我在学习多线程"+i);

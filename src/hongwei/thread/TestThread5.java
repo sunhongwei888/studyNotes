@@ -1,4 +1,4 @@
-package com.hongwei.thread;
+package hongwei.thread;
 
 public class TestThread5 implements Runnable{
     private int ticketNum = 10;

@@ -1,4 +1,4 @@
-package com.hongwei.thread;
+package hongwei.thread;
 
 public class ThreadStop implements Runnable{
     private boolean flag = true;

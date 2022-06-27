@@ -1,4 +1,4 @@
-package com.hongwei.method;
+package hongwei.method;
 
 import java.util.Arrays;
 

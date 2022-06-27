@@ -1,4 +1,4 @@
-package com.hongwei.lamda;
+package hongwei.lamda;
 
 public class Lamda1 {
     //3.静态内部类

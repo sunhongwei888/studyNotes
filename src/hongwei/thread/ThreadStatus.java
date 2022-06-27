@@ -1,4 +1,4 @@
-package com.hongwei.thread;
+package hongwei.thread;
 
 public class ThreadStatus {
     public static void main(String[] args) throws InterruptedException {

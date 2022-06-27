@@ -1,4 +1,4 @@
-package com.hongwei.method;
+package hongwei.method;
 
 public class Method {
     //加法

@@ -1,4 +1,4 @@
-package com.hongwei.thread.synchronizedPac;
+package hongwei.thread.synchronizedPac;
 
 public class UnsafeBuyTicket {
     public static void main(String[] args) {

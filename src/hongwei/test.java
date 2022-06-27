@@ -1,8 +1,6 @@
-package com.hongwei;
+package hongwei;
 
 import java.util.Calendar;
-import java.util.Date;
-import java.util.Random;
 
 public class test {
     public static void main(String[] args) {

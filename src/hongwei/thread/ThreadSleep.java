@@ -1,8 +1,7 @@
-package com.hongwei.thread;
+package hongwei.thread;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.logging.SimpleFormatter;
 
 public class ThreadSleep implements Runnable{
     /*@Override
