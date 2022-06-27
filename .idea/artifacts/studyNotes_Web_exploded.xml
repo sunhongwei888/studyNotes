@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="studyNotes:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/studyNotes_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="studyNotes/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="studyNotes" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-io-2.6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
