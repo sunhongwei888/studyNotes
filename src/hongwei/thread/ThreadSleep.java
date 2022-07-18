@@ -4,21 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ThreadSleep implements Runnable{
-    /*@Override
-    public void run() {
-        int num = 10;
-        while (true){
-            System.out.println(num--);
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            if(num == 0){
-                break;
-            }
-        }
-    }*/
 
     @Override
     public void run() {

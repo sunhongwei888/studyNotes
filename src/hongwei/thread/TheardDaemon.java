@@ -2,11 +2,8 @@ package hongwei.thread;
 
 public class TheardDaemon {
     public static void main(String[] args) {
-        God god = new God();
-        You you = new You();
-
-        Thread gThread = new Thread(god);
-        Thread yThread = new Thread(you);
+        Thread gThread = new Thread(new God());
+        Thread yThread = new Thread(new You());
 
         gThread.setDaemon(true);
         gThread.start();
@@ -26,7 +23,7 @@ class God implements Runnable{
 class You implements Runnable{
     @Override
     public void run() {
-        for (int i = 0; i < 3000; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.println("开心"+i);
         }
         System.out.println("结束");
